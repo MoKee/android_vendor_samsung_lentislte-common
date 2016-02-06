@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/samsung/lentislte-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/samsung/lentislte-common/proprietary/lib/hw/camera.apq8084.so:system/lib/hw/camera.apq8084.so \
     vendor/samsung/lentislte-common/proprietary/lib/hw/camera.vendor.apq8084.so:system/lib/hw/camera.vendor.apq8084.so \
     vendor/samsung/lentislte-common/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
     vendor/samsung/lentislte-common/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
@@ -332,11 +333,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+    vendor/samsung/lentislte-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/samsung/lentislte-common/proprietary/lib/hw/sensors.apq8084.so:system/lib/hw/sensors.apq8084.so \
     vendor/samsung/lentislte-common/proprietary/lib/hw/sensorhubs.apq8084.so:system/lib/hw/sensorhubs.apq8084.so \
+    vendor/samsung/lentislte-common/proprietary/lib/libhr.so:system/lib/libhr.so \
     vendor/samsung/lentislte-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/lentislte-common/proprietary/lib/libcommon_time_client.so:system/lib/libcommon_time_client.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
